@@ -1,0 +1,22 @@
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40px;
+  padding: 8px 14px;
+  border-radius: 8px;
+  background: var(--background-primary);
+  color: var(--white);
+  font-size: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.button__icon {
+  margin-right: 8px;
+}
+.button__icon > * {
+  margin-right: 8px;
+  color: var(--white);
+}

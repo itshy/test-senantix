@@ -1,0 +1,18 @@
+.dropdown-menu-button {
+  width: 32px;
+  height: 32px;
+  padding: 8px;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.dropdown-menu-button:hover {
+  background: var(--light-grey);
+}
+
+.dropdown-menu__items {
+  display: flex;
+  flex-direction: column;
+  background: var(--white-5);
+}

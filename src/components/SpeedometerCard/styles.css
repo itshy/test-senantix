@@ -1,0 +1,22 @@
+.speedometer-chart__content {
+  padding: 4px 16px;
+}
+.speedometer-chart__content-chart {
+  padding: 24px 64px 24px;
+}
+
+.speedometer-chart__title {
+  display: block;
+  margin-bottom: 16px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.speedometer-chart__description {
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+}
