@@ -1,10 +1,7 @@
 import React from 'react';
 
-import { Menu, MenuButton, MenuItem, MenuItems, Transition } from '@headlessui/react';
-import {
-  PencilIcon,
-  EllipsisHorizontalIcon,
-} from '@heroicons/react/16/solid';
+import { Menu, MenuButton } from '@headlessui/react';
+import { EllipsisHorizontalIcon } from '@heroicons/react/16/solid';
 
 import './styles.css';
 

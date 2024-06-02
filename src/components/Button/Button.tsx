@@ -4,7 +4,7 @@ import { Button as ButtonComponent } from '@headlessui/react';
 import './styles.css';
 
 interface ButtonProps {
-  Icon?: React.ComponentType<React.SVGProps<SVGSVGElement>>;
+  Icon?: React.ElementType;
   children: string;
 }
 
@@ -14,7 +14,7 @@ const Button: React.FC<ButtonProps> = ({
 }) => {
   return (
     <ButtonComponent className="button">
-      {Icon && <Icon width={20} className="button__icon" />}
+      {Icon && <Icon className="button__icon" style={{ width: 20 }} />}
       {children}
     </ButtonComponent>
   )

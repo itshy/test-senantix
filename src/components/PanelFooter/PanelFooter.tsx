@@ -4,7 +4,7 @@ import Button from '../Button/Button';
 import './styles.css';
 
 interface PanelFooterProps {
-  Icon?: React.ComponentType<React.SVGProps<SVGSVGElement>>;
+  Icon?: React.ElementType;
   primaryButtonLabel: string;
 }
 
